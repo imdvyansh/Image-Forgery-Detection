@@ -1,0 +1,8 @@
+#I have Used daset from kagglehub
+
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("tusharchauhan1898/comofod")
+
+print("Path to dataset files:", path)
